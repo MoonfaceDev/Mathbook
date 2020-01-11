@@ -349,8 +349,11 @@ class Data {
                                 new Text("משולשים חופפים הם משולשים בעלי אותה צורה שגם הצלעות וגם הזוויות שלהם שוות, כך שאם תניח אותם אחד על גבי השני תקבל את אותו המשולש."),
                                 new Text("דוגמא:").setTextStyle(Text.TextStyle.underline),
                                 new Image(R.drawable.overlapping_triangles, Item.MATCH_PARENT, 300),
-                                new Text("משולשים ABC ו-DEF חופפים זה לזה ונהוג לסמן זאת כך:"),
-                                new Formula("$$\\triangle ABC \\cong \\triangle DEF$$")
+                                new Text("משולשים ABC ו-DEF חופפים זה לזה ונהוג לכתוב זאת כך:"),
+                                new Formula("\\triangle"),//TODO: i dont care right now, maybe later
+                                new Text("הערות:").setTextStyle(Text.TextStyle.bold),
+                                new Text("* שימו לב שכשאתם כותבים לפי שיטה זו המיקום של כל קודקוד תואם למיקום של הקודקוד המקביל לו."+
+                                        "\n* נהוג לסמן את הצלעות והזוויות השוות בכל משולש באמצעות שרטוט של אותו מספר קווים עליהן או על ידי מרקורן.")
 
                         }),
                         new Topic("קטעים מיוחדים במשולש", R.drawable.ic_special_segments, new Item[]{
