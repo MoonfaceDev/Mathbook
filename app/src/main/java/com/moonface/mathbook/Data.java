@@ -347,7 +347,11 @@ class Data {
                 new Section("גיאומטריה במישור", "משולשים, מרובעים, מעגלים, שטחים והיקפים, יחסים ופרופורציות...", R.drawable.ic_geometry, new Topic[]{
                         new Topic("חפיפת משולשים", R.drawable.ic_congruent_triangles, new Item[]{
                                 new Text("משולשים חופפים הם משולשים בעלי אותה צורה שגם הצלעות וגם הזוויות שלהם שוות, כך שאם תניח אותם אחד על גבי השני תקבל את אותו המשולש."),
-                                new Text("דוגמא:").setTextStyle(Text.TextStyle.underline)
+                                new Text("דוגמא:").setTextStyle(Text.TextStyle.underline),
+                                new Image(R.drawable.overlapping_triangles, Item.MATCH_PARENT, 300),
+                                new Text("משולשים ABC ו-DEF חופפים זה לזה ונהוג לסמן זאת כך:"),
+                                new Formula("$\\triangle$ triangle \\\\ABC $\\cong$ congruent \\\\ $\\triangle$ triangle \\\\DEF")
+
                         }),
                         new Topic("קטעים מיוחדים במשולש", R.drawable.ic_special_segments, new Item[]{
 
