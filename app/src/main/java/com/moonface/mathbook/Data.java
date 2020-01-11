@@ -350,7 +350,7 @@ class Data {
                                 new Text("דוגמא:").setTextStyle(Text.TextStyle.underline),
                                 new Image(R.drawable.overlapping_triangles, Item.MATCH_PARENT, 300),
                                 new Text("משולשים ABC ו-DEF חופפים זה לזה ונהוג לסמן זאת כך:"),
-                                new Formula("$\\triangle$ triangle \\\\ABC $\\cong$ congruent \\\\ $\\triangle$ triangle \\\\DEF")
+                                new Formula("$$\\triangle ABC \\cong \\triangle DEF$$")
 
                         }),
                         new Topic("קטעים מיוחדים במשולש", R.drawable.ic_special_segments, new Item[]{
