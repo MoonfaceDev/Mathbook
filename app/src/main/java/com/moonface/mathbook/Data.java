@@ -346,7 +346,7 @@ class Data {
                 }),
                 new Section("גיאומטריה במישור", "משולשים, מרובעים, מעגלים, שטחים והיקפים, יחסים ופרופורציות...", R.drawable.ic_geometry, new Topic[]{
                         new Topic("חפיפת משולשים", R.drawable.ic_congruent_triangles, new Item[]{
-                            new Text("e")
+                            new Text("")
                         }),
                         new Topic("קטעים מיוחדים במשולש", R.drawable.ic_special_segments, new Item[]{
 
